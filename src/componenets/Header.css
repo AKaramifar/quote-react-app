@@ -1,0 +1,55 @@
+@keyframes HeaderGradient {
+    0% {
+        background-position:0% 50%;
+    }
+    50% {
+        background-position:100% 50%;
+    }
+    100% {
+        background-position:0% 50%;
+    }
+}
+.Div_Header_Style{
+    height: 250px;    
+    background-image: linear-gradient(270deg, #667eea , #764ba2);
+    background-size: 200% 200%;
+    animation: HeaderGradient 10s ease infinite;
+}
+.Div_Quote_Style{
+    margin: 0px;
+    height: 200px;
+}
+.Div_Search_Style{
+    height: 49px;
+    border-top: 0.5px  solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.Input_Search_Style{
+    width: 50%;
+    height: 35px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    text-indent: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.P_Search_Style{
+    width: 100px;
+    padding: 7px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #f0f0f0;
+    color: navy;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: 200ms;
+    letter-spacing: 0.5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.P_Search_Style:hover{
+    background-color: white;
+    cursor: pointer;
+}
