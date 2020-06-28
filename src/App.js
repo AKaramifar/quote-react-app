@@ -14,7 +14,6 @@ function App() {
     )
       .then((Response) => Response.json())
       .then((data) => {
-        console.log(data);
         setQouteFiltred(data);
       })
       .catch((err) => console.log(err));
@@ -23,7 +22,6 @@ function App() {
     fetch(`https://akaramifar-quote-server.herokuapp.com/quotes`)
       .then((Response) => Response.json())
       .then((data) => {
-        console.log(data);
         setQouteFiltred(data);
       })
       .catch((err) => console.log(err));
