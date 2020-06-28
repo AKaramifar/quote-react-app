@@ -10,10 +10,14 @@
     }
 }
 .Div_Header_Style{
+    margin: 0px;
+    width: 100%;
     height: 250px;    
-    background-image: linear-gradient(270deg, #667eea , #764ba2);
+    background-image: linear-gradient(270deg, #0a3d62 , #764ba2);
     background-size: 200% 200%;
     animation: HeaderGradient 10s ease infinite;
+    position: fixed;
+    z-index: 100;
 }
 .Div_MainQoute_Style{
     margin: 0px auto;
